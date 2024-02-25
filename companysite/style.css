@@ -1,0 +1,88 @@
+
+body{
+  font-family: "Oswald Regular", "Oswald Medium", "Oswald Light";
+  font-size: 30;
+  background-color: #006634;
+  margin:0;  
+  padding:0;
+
+}
+
+.outer{
+   text-align: center;
+   padding:20px;
+}
+
+.page{
+   margin-top: 10px;
+   background-color: white;
+   max-width:1200px;
+   width: 100%;
+   height:99vh;
+   display: inline-block;
+}
+
+.topofpage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+}
+
+.logo{
+	max-width: 100px;
+}
+
+.logoimg{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 75%;
+}
+
+.navbar{
+	align-content: center;
+	flex-grow: 1;
+	margin-right: 20px;
+	
+}
+
+.navbarright{
+	align-content: flex-end;
+	margin-right: auto;
+}
+
+.search{
+	align-content: flex-end;
+	margin-left: auto;
+	max-width: 100px;
+}
+.searchimg{
+	width: 50%;
+}
+
+a{
+	color: #010101;
+	text-decoration: none;
+	font-size: 25px;
+	margin-right: 20px;
+}
+a:hover{
+	color: #006634;
+}
+
+.content{
+	padding-left: 100 px;
+	padding-right: 100 px;
+	background-color: lightgray;
+	text-align: center;
+}
+
+
+
+
+
+
+  
+	  
