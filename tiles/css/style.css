@@ -1,0 +1,110 @@
+body{
+  font-family: "Oswald Regular", "Oswald Medium", "Oswald Light";
+  font-size: 30;
+}
+
+.top_of_page {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; 
+  z-index: 1000; 
+  background-color: white; 
+  width: 100%; 
+}
+
+
+.outer{
+  position: relative;
+  width:100%;
+  text-align:center;
+}
+
+.inner{
+  display: inline-block;
+  position: relative;
+  width:50vw;
+  min-height:200px;
+}
+
+.navbar{
+  position: sticky;
+  width:100%;
+  min-height: 100px;
+  z-index: 100;
+}
+
+.logo{
+  display:inline-block;
+  width:100px;
+  height:100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.logoimg{
+	width: 75%;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.navitems{
+  display:inline-block;
+   vertical-align: middle;
+   margin-right:50px;
+}
+
+.searchbox{
+ float: right; 
+ display: inline-block; 
+ vertical-align: middle; 
+ width: 100px;
+ height:100px;
+ line-height: 100px;
+}
+
+.searchimg{
+	width: 50%;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.tile{
+  position: relative;
+  border: 2px solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.tiletext{
+	text-align: center;
+	margin-top: 250px;
+	font-size: 72px;
+	font-weight: 600;
+	color: white;
+	opacity: 95%;
+}
+.tile1{
+	background-image: url("../../../Documents/webmobile/mobileapp.jpeg");
+}
+
+.tile2{
+	background-image: url("../../../Documents/webmobile/store.jpeg");
+}
+
+.tile3{
+	background-image: url("../../../Documents/webmobile/rewards.jpeg");
+}
+
+.tile4{
+	background-image: url("../../../Documents/webmobile/drivethrough.jpeg");
+}
+
+.tile5{
+	background-image: url("../../../Documents/webmobile/share.jpeg");
+}
+
+.tile6{
+	background-image: url("../../../Documents/webmobile/counter.jpeg");
+}
+
