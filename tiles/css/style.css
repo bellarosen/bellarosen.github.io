@@ -85,26 +85,26 @@ body{
 	opacity: 95%;
 }
 .tile1{
-	background-image: url("../../../Documents/webmobile/mobileapp.jpeg");
+	background-image: url("../img/mobileapp.jpeg");
 }
 
 .tile2{
-	background-image: url("../../../Documents/webmobile/store.jpeg");
+	background-image: url("../img/store.jpeg");
 }
 
 .tile3{
-	background-image: url("../../../Documents/webmobile/rewards.jpeg");
+	background-image: url("../img/rewards.jpeg");
 }
 
 .tile4{
-	background-image: url("../../../Documents/webmobile/drivethrough.jpeg");
+	background-image: url("../img/drivethrough.jpeg");
 }
 
 .tile5{
-	background-image: url("../../../Documents/webmobile/share.jpeg");
+	background-image: url("../img/share.jpeg");
 }
 
 .tile6{
-	background-image: url("../../../Documents/webmobile/counter.jpeg");
+	background-image: url("../img/counter.jpeg");
 }
 
