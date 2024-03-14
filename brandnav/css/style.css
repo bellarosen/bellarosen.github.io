@@ -1,0 +1,213 @@
+body{
+  font-family: "Oswald Regular", "Oswald Medium", "Oswald Light";
+  font-size: 30;
+}
+
+.top_of_page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+}
+
+
+.outer{
+  position: relative;
+  width:100%;
+  text-align:center;
+}
+
+.inner{
+  display: inline-block;
+  position: relative;
+  width:50vw;
+  min-height:200px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+  height: 100px;
+}
+
+.navright{
+	margin-left: auto;
+}
+.logo{
+  display:inline-block;
+  width:100px;
+  height:100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.logoimg{
+	width: 75%;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.nav{
+  display:inline-block;
+   vertical-align: middle;
+   margin-right:50px;
+}
+
+.menu{
+	display: none;
+	float: right;
+  line-height: 170px;
+  vertical-align: middle;
+}
+
+.innermenu{
+	margin-top: 50px;
+}
+
+.page{
+	position: relative;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+	max-width: 1200px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	text-align: left;
+	height: 100px;
+}
+
+
+
+
+
+
+a{
+	color: #010101;
+	text-decoration: none;
+	margin-right: 20px;
+}
+a:hover{
+	color: #006634;
+}
+
+
+
+
+
+
+@media screen and (max-width: 850px){
+	.menu{
+		display: inline-block;
+	}
+	.menu img{
+		width: 50px;
+		padding: 10px;
+	}
+	.navbar{
+		display: none;
+	}
+	.searchimg{
+		display: none;
+	}
+	.page{
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+
+#menuoverlay{
+	position: absolute;
+	top: 0px;
+	background-color: #006634;
+	width: 100%;
+	height: 98vh;
+	display: none;
+	
+	text-align: center;
+}
+
+#menu img{
+	width: 50px;
+	cursor: pointer;
+}
+
+#close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 60px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+.searchbox{
+ float: right; 
+ display: inline-block; 
+ vertical-align: middle; 
+ width: 100px;
+ height:100px;
+ line-height: 100px;
+}
+
+.searchimg{
+	width: 50%;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.tile{
+  position: relative;
+  border: 2px solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.tiletext{
+	text-align: center;
+	margin-top: 250px;
+	font-size: 72px;
+	font-weight: 600;
+	color: white;
+	opacity: 95%;
+}
+.tile1{
+	background-image: url("../img/mobileapp.jpeg");
+}
+
+.tile2{
+	background-image: url("../img/store.jpeg");
+}
+
+.tile3{
+	background-image: url("../img/rewards.jpeg");
+}
+
+.tile4{
+	background-image: url("../img/drivethrough.jpeg");
+}
+
+.tile5{
+	background-image: url("../img/share.jpeg");
+}
+
+.tile6{
+	background-image: url("../img/counter.jpeg");
+}
+
