@@ -1,0 +1,180 @@
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.topnav{
+  background-color: #f5eaea;
+  height:100px;
+  text-align: left;
+
+}
+
+.layout{
+	width:100%;
+	height: 100px;
+	background-color: #f5eaea;
+
+}
+
+
+
+.buttons img{
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+
+
+
+/*BLOCK 1*/
+
+.block1{
+	position: relative;
+  height: 100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  background-color: #d5d0ea;
+}
+
+.block1 img{
+  max-width: 500px;
+  width: 50%;
+  float: left;
+}
+
+
+.block1title{
+  font-weight: medium;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.block1text{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: large;
+  margin-top: 15%;
+}
+
+.block1text img{
+  max-width: 100px;
+  align-items: center;
+  float: inherit;
+}
+
+
+
+
+
+
+
+
+
+/*BLOCK 2*/
+
+.block2{
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  background-color: #f2f0ea;
+}
+
+.block2 img{
+  max-width: 500px;
+  width: 50%;
+  float: right;
+}
+
+.block2title{
+  font-weight: medium;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.block2text{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: medium;
+  margin-top: 8%;
+}
+
+.block2text img{
+  max-width: 100px;
+  align-items: center;
+  float: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+/*BLOCK 3*/
+
+.block3{
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  background-color: #cee8ca;
+}
+
+.block3 img{
+  max-width: 500px;
+  width: 50%;
+  float: left;
+}
+
+
+.block3title{
+  font-weight: medium;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.block3text{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: large;
+  margin-top: 15%;
+}
+
+.block3text img{
+  max-width: 100px;
+  align-items: center;
+  float: inherit;
+}
+
+
+
